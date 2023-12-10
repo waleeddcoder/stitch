@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Signup or Register</title>
+    <!-- External stylesheet for styling the signup page -->
+    <link rel="stylesheet" href="stylesignup.css">
+    <!-- Favicon for the webpage -->
+    <link rel="icon" href="assets/logo.jpg">
+
+    <!-- Add any additional meta tags, links, or stylesheets here -->
+</head>
+
+<body>
+    <!-- Logo and brand name section -->
+    <div class="logo">
+        <!-- Logo image -->
+        <img src="assets/logo.jpg" alt="Logo">
+        <!-- Brand name -->
+        <h1>UrbanStitch</h1>
+    </div>
+
+    <!-- Signup form section -->
+    <div class="signup-form">
+        <form action="next_page.html" method="post">
+            <!-- Heading for the signup section -->
+            <h2>Enter Credentials</h2>
+            <!-- Container for first and last name input fields -->
+            <div class="name-container">
+                <input type="text" name="firstname" placeholder="First Name" required>
+                <input type="text" name="lastname" placeholder="Last Name" required>
+            </div>
+            <!-- Email and password input fields -->
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <!-- Additional options section with a link to sign in -->
+            <div class="additional-options">
+                <p>Already a member? <a href="signin.html" class="signin-btn">Sign In</a></p>
+            </div>
+            <!-- Line break for better spacing -->
+            <br>
+            <!-- Signup button with a comment on its behavior -->
+            <button class="signup-btn" onclick="location.href='home.html'">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>

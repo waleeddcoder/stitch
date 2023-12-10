@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanStitch Home Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylehome.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo.jpg">
+
+    <!-- Add any additional meta tags, links, or stylesheets here -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">
+                    <img class="logo" src="assets/logo.jpg" alt="Urban Stitch Logo">
+                    <span class="logo-text">UrbanStitch</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Navigation links -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="category.html">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="cart.html">Shipping</a>
+                        </li>
+                    </ul>
+                    <!-- Cart button -->
+                    <form action="cart.html">
+                        <a href="cart.html">
+                            <button class="cart-btn">
+                                <i class="fas fa-shopping-cart">
+                                    <span class="badge ">2</span>
+                                </i>
+                            </button>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Body -->
+    <div class="container-fluid hero">
+        <!-- Hero section -->
+        <div class="media hero">
+            <img src="assets/c2.jpg" alt="hero img">
+            <div class="content">
+                <h2>Classic <br>Feminine <br>Clothing</h2>
+                <a href="category.html">
+                    <button class="btn btn-sm btn-primary">Shop All</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inspiring section -->
+    <div class="container-fluid inspire">
+        <h3>Inspiring Feminine Energy</h3>
+        <p>Elevate your style with our collection that celebrates the essence of inspiring feminine energy. Embrace the
+            strength, grace,
+            and resilience that radiate from each carefully crafted piece. Our designs empower you to embrace your
+            unique femininity with confidence,
+            making a bold statement that transcends fashion and resonates with the power within you.</p>
+    </div>
+
+    <!-- Launched section -->
+    <div class="container-fluid launched">
+        <div class="media launched">
+            <img src="assets/2.jpg" alt="">
+            <div class="container-sm content">
+                <h5>JUST LAUNCHED</h5>
+                <h3>WINTER 2023/24</h3>
+                <p><b>Discover the allure of our just-launched winter collection, <br>where cozy meets chic in every
+                        stitch.
+                        <br>DImmerse yourself in a symphony of warmth and style, <br>curated to elevate your winter
+                        wardrobe with timeless pieces <br> that effortlessly blend fashion and comfort!
+                    </b></p>
+                <a href="category.html">
+                    <button class="btn btn-sm btn-primary">Shop Now</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Best Sellers section -->
+    <div class="container-fluid best-sellers">
+        <div class="container-sm head">
+            <h4>Our Best Sellers</h4>
+            <p>Discover your favorite styles in our irresistible best sellers collection.</p>
+        </div>
+        <div class="container-md images">
+            <a href="category.html"><img src="assets/card5.jpg" alt="card img"></a>
+            <a href="category.html"><img src="assets/card6.jpg" alt="card img"></a>
+            <a href="category.html"><img src="assets/card7.jpg" alt="card img"></a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid footer">
+            <div class="top">
+                <!-- Company information and subscription form -->
+                <div class="input">
+                    <div class="htext">
+                        <h4 style="color: #004D40;">UrbanStitch</h4>
+                        <p style="font-weight: bold;opacity:0.7;">123 Fashion Street, Cityville, Country</p>
+                        <p style="font-weight: bold;opacity:0.7;">Contact: +1 (123) 456-7890</p>
+                        <p style="font-weight: bold;opacity:0.7;">Email: info@urbanstitch.com</p>
+                    </div>
+
+                    <div class="text-area">
+                        <input type="text" placeholder="Enter your Email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+                <!-- Footer images -->
+                <div class="images">
+                    <a href="category.html"><img src="assets/card1.jpg" alt="footer img"></a>
+                    <a href="category.html"><img src="assets/card2.jpg" alt="footer img"></a>
+                    <a href="category.html"><img src="assets/card3.jpg" alt="footer img"></a>
+                    <a href="category.html"><img src="assets/card4.jpg" alt="footer img"></a>
+                </div>
+            </div>
+
+            <!-- Social icons -->
+            <div class="bottom">
+                <ul class="social-icons">
+                    <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.google.com/gmail/about/"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="https://www.snapchat.com/"><i class="fab fa-snapchat"></i></a></li>
+                    <li><a href="https://www.threads.net/login"><i class="fas fa-comment-dots"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Copyright information -->
+            <div class="copyright">Copyright &copy; | Powered by <b>Muneeba Zaheer and Rayyan Waqar</b></div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

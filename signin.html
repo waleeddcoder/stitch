@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Log In</title>
+    <!-- External stylesheet for styling the login page -->
+    <link rel="stylesheet" href="stylesignin.css">
+    <!-- Favicon for the webpage -->
+    <link rel="icon" href="assets/logo.jpg">
+</head>
+
+<body>
+    <!-- Logo and brand name section -->
+    <div class="logo">
+        <!-- Logo image -->
+        <img src="assets/logo.jpg" alt="Logo">
+        <!-- Brand name -->
+        <h1>UrbanStitch</h1>
+    </div>
+
+    <!-- Sign-in form section -->
+    <div class="signin-form">
+        <!-- Heading for the sign-in section -->
+        <h2>Sign In</h2>
+        <!-- Form for collecting user credentials -->
+        <form action="#" method="post">
+            <!-- Input field for email with label -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Email" name="email" required>
+
+            <!-- Input field for password with label -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Password" name="password" required>
+
+            <!-- Link for password recovery -->
+            <p><a href="#">Forgot Password?</a></p>
+
+            <!-- Submit button with a comment on its behavior -->
+            <button type="submit" onclick="location.href='home.html'">Continue</button>
+        </form>
+
+        <!-- Prompt for users who are new to UrbanStitch -->
+        <p>New to UrbanStitch?</p>
+        <!-- Button for redirecting to the signup page -->
+        <button onclick="location.href='signup.html'">Sign Up</button>
+    </div>
+</body>
+
+</html>
